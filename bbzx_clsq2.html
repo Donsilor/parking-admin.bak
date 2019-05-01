@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>报表中心-固定车辆信息统计表</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/bbzx_clsq.css">
+</head>
+<body>
+<div class="clf top_column">
+  <div class="fl"><h6>管理系统</h6></div>
+  <div class="fr">
+    <a href="javascript:"><span>admin</span>欢迎您！</a>
+    <a href="javascript:">刷新页面</a>
+    <a href="javascript:">安全退出</a>
+  </div>
+</div>
+<div class="left_column">
+  <ul id="ul">
+    <li>
+      <div class="title">基础资料</div>
+      <div class="menu">
+        <a href="jczl-bmgl.html">部门管理</a>
+        <a href="jczl-czrz.html">操作日志</a>
+        <a href="jczl-sjzd.html">数据字典</a>
+        <a href="jczl-xtpz.html">系统配置</a>
+        <a href="jczl-yhgl.html">用户管理</a>
+        <a href="jczl-zygl.html">资源管理</a>
+      </div>
+    </li>
+    <li class='current'>
+      <div class="title">业务中心</div>
+      <div class="menu">
+        <a href="ywzx-ccqy.html">车场区域</a>
+        <a href="ywzx-clsq-kb.html">车辆授权</a>
+        <a href="ywzx-fwgl.html">房屋管理</a>
+        <a href="ywzx-sbgl-zk.html">设备管理展开</a>
+        <a href="ywzx-sbgl.html">设备管理</a>
+        <a href="ywzx-ykxf.html">月卡续费</a>
+      </div>
+    </li>
+    <li>
+      <div class="title">监控中心</div>
+      <div class="menu">
+        <a href="jkzx-sbjk-kb.html">设备监控-拷贝</a>
+        <a href="jkzx-sbjk.html">设备监控</a>
+      </div>
+    </li>
+    <li>
+      <div class="title">报表中心</div>
+      <div class="menu">
+        <a href="bbzx_gdclxxtjb.html">固定车辆信息统计表</a>
+        <a href="javascript:">固定车辆信息统计表-1</a>
+      </div>
+    </li>
+  </ul>
+  <a href="javascript:" class="toggleBtn"></a>
+</div>
+<div class="box">
+  <div class="top">
+    <div class="clf tabs">
+      <a href="javascript:" class="current">首页</a>
+      <a href="javascript:">固定车辆信息统计表</a>
+    </div>
+    <div class="clf btns">
+      <a href="javascript:">登记车辆</a>
+      <a href="javascript:">导入授权</a>
+      <a href="javascript:">导出 TXT</a>
+    </div>
+
+    <div class="info">
+      <form action="">
+        <ul class="clf">
+          <li>
+            <span>电话号码：</span>
+            <div>
+              <input type="text" placeholder="请输入">
+            </div>
+          </li>
+          <li>
+            <span>用户姓名：</span>
+            <div>
+              <select name="" id="1">
+                <option value="" disabled selected>请选择</option>
+                <option value="">123</option>
+                <option value="">234</option>
+                <option value="">345</option>
+              </select>
+            </div>
+
+          </li>
+          <li>
+            <span>房号：</span>
+            <div>
+              <select name="" id="2">
+                <option value="" disabled selected>请选择</option>
+                <option value="">123</option>
+                <option value="">234</option>
+                <option value="">345</option>
+              </select>
+            </div>
+
+          </li>
+          <li>
+            <span>搜索名称：</span>
+            <div>
+              <input type="text" placeholder="请输入">
+            </div>
+
+          </li>
+          <li>
+            <span>创建时间：</span>
+            <div>
+              <input type="text" placeholder="请输入">
+            </div>
+
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <div class="clf search">
+      <div class="fl"><span>批量删除</span>共搜索到 <span>922</span> 条数据</div>
+      <div class="fr">
+        <input type="submit" value="搜索">
+        <input type="submit" value="清除">
+        <span><i><img src="images/icon_t_arrow.png" alt=""></i>收起搜索</span>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="bottom">
+    <div id="flowDistribution"></div>
+  </div>
+
+</div>
+<script src="js/echarts.min.js"></script>
+<script src="js/jquery-1.8.0.min.js"></script>
+<script src="js/js.js"></script>
+<script>
+
+  var flowDistribution = echarts.init(document.getElementById('flowDistribution'));
+  var flowDistributionOption = {
+    title: {
+      text: '流量分布',
+      left: '0px',
+      textStyle: {
+        fontSize: 20,
+        fontWeight: 'normal'
+      }
+    },
+    tooltip: {
+      trigger: 'axis'
+    },
+    legend: {
+      data: ['临停', '固定'],
+      right: 0
+    },
+    grid: {
+      left: '0',
+      right: '4%',
+      bottom: '3%',
+      containLabel: true
+    },
+    xAxis: {
+      type: 'category',
+      boundaryGap: false,
+      data: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14']
+    },
+    yAxis: {
+      type: 'value'
+    },
+    series: [
+      {
+        name: '临停',
+        type: 'line',
+        stack: '总量',
+        data: [120, 132, 101, 134, 90, 230, 210, 120, 132, 101, 134, 90, 230, 210]
+      },
+      {
+        name: '固定',
+        type: 'line',
+        stack: '总量',
+        data: [220, 182, 191, 234, 290, 330, 310, 220, 182, 191, 234, 290, 330, 310]
+      }
+    ],
+    color: ['#1c7dfa', '#53d769']
+  };
+  flowDistribution.setOption(flowDistributionOption);
+
+
+</script>
+</body>
+</html>

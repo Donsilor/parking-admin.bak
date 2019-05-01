@@ -1,0 +1,114 @@
+/*LJK common*/
+.bg_banner{white-space: 100%; min-width: 1400px; height: 768px; background: url(../images/pic_9.jpg) no-repeat center top;}
+
+/*我是旅居卡*/
+.lvjuka{width: 100%; min-width: 1400px; height: 643px; background: #FCCC37; position: relative;}
+.lvjuka>img{display: block; width: 50%; position: absolute; left: 0px; top: 45px;}
+.lvjuka .wrapper{padding: 210px 0 0 790px;}
+.lvjuka .wrapper h1{font: 66px/66px "华文中宋"; color: #F6D795;}
+.lvjuka .wrapper h2{font: 43px/66px "微软雅黑"; color: #fff; margin-bottom: 30px;}
+.lvjuka .wrapper table td{font: 18px/25px "微软雅黑"; color: #fff;}
+
+/*解析旅居卡*/
+.jiexi .title{padding: 110px 0 0 0; text-align: center; border-bottom: 2px solid #d1d1d1;}
+.jiexi .title h1,.jiexi .title h2{font-weight: normal;}
+.jiexi .title h1{font: 50px/65px "微软雅黑"; color: #4b4a49;}
+.jiexi .title h2{font: 20px/30px "华文中宋"; color: #cacaca;}
+.jiexi .title hr{width: 78px; border: none; border-top: 5px solid #FCCC37; background: none; margin: 38px auto -2px;}
+.jiexi .tab_opt{padding: 73px 0 106px 0;}
+.jiexi .tab_opt li{width: 175px; float: left; height: 182px; text-align: center; cursor: pointer;}
+.jiexi .tab_opt li div{width: 117px; height: 117px; border: 2px solid #FECC39; border-radius: 50%; padding: 4px; margin: auto;}
+.jiexi .tab_opt li div span{display: block; width: 105px; height: 105px; font: 67px/105px "微软雅黑"; text-align: center; color: #FECC39; border-radius: 50%;}
+.jiexi .tab_opt li p{font: 22px/65px "微软雅黑"; color: #555;}
+.jiexi .tab_opt .curr div span{background: #FECC39; color: #fff;}
+.jiexi .tab_opt .mgT{margin-top: 166px;}
+.jiexi .tab_cont{min-width: 1400px;}
+.jiexi .tab_ctn{width: 1400px; margin: auto; display: flex;}
+.jiexi .col_3{flex-grow: 1; float: left; position: relative;}
+.jiexi .col_3>img{display: block; width: 100%;}
+.jiexi .col_3 .hidd{display: none;}
+.jiexi .col_3:hover .hidd{display: block; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; background: rgba(29,30,44,0.52); text-align: center; padding: 10% 0 0 0; color: #fff;}
+.jiexi .col_3:hover .hidd h1{font: 28px/2em "微软雅黑";}
+.jiexi .col_3:hover .hidd hr{width: 39px; border-bottom: 3px solid #E1A729; margin-bottom: 30px;}
+.jiexi .col_3:hover .hidd p{font: 13px/25px "微软雅黑";}
+
+/*四大功能*/
+.gongnen{width: 100%; height: 770px; border-bottom: 1px solid #bebebe;}
+.gongnen h1{font: 47px/290px "微软雅黑"; color: #4c4c4c; text-align: center;}
+.gongnen .dispfl{display: flex;}
+.gongnen .col_4{text-align: center; flex-grow: 1; width: 25%;}
+.gongnen .col_4 div{width: auto; height: 175px; padding-top: 30px; font: 19px/35px "微软雅黑"; color: #575757;}
+.gongnen .col_4 p{font: 30px/45px "微软雅黑"; color: #333;}
+
+/*五重保障*/
+.baozhan{width: 100%; padding-bottom: 100px;}
+.baozhan .title{text-align: center; height: 300px; padding: 50px 0 0 0;}
+.baozhan .title h1{font: 47px/100px "微软雅黑"; color: #4d4d4d;}
+.baozhan .title hr{width: 47px; border: none; border-bottom: 3px solid #FCCC37; margin: 0 auto;}
+.baozhan .title h2{font: 24px/55px "微软雅黑"; color: #4d4d4d;}
+.baozhan .dispfl{display: flex;}
+.baozhan .dispfl .col_4{flex-grow: 1; width: 25%; text-align: center;}
+.baozhan .col_4 .col_T,.baozhan .col_4 .col_B{width: auto; height: 211px;}
+.baozhan .add .col_B,.baozhan .even .col_T{background: #FCCC37; position: relative; padding: 12% 0 0 0; font: 20px/30px "微软雅黑"; color: #fff;}
+.baozhan .add .col_B:after {content: "";position: absolute;border-width: 10px;border-style: solid;border-color: transparent transparent #FCCC37;line-height: 1;display: inline-block;left: 50%;top: -19px; transform: translateX(-50%);}
+.baozhan .even .col_T:after {content: "";position: absolute;border-width: 10px;border-style: solid;border-color:  #FCCC37 transparent transparent;line-height: 1;display: inline-block;left: 50%;bottom: -19px; transform: translateX(-50%);}
+.baozhan .col_4 hr{width: 53px; border: none; border-bottom: 3px solid #fff;}
+.baozhan .col_4 .color{display: none;}
+.baozhan .add .col_T:hover .color,.baozhan .even .col_B:hover .color{display: block;}
+.baozhan .add .col_T:hover .gray,.baozhan .even .col_B:hover .gray{display: none;}
+
+/*六项服务体系*/
+.fuwu{position: relative;}
+.fuwu>img{display: block; width: 100%;}
+.fuwu .layer{position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: rgba(31,38,75,0.67); padding: 60px 0 0 0;}
+.fuwu .title{text-align: center; color: #fff; letter-spacing: 3px; margin-bottom: 70px;}
+.fuwu .title h1{font: 35px/50px "微软雅黑"; font-weight: normal;}
+.fuwu .title p{font: 20px/40px "微软雅黑"; color: #c3c2c1;}
+.fuwu .title hr{width: 58px; border: none; border-bottom: 5px solid #FCCC37;}
+.fuwu .layer ul{width: 1170px; margin: auto;}
+.fuwu .layer li{width: 135px; margin: 0 30px; float: left; text-align: center;}
+.fuwu .layer li a{color: #fff; font-size: 24px;}
+.fuwu .layer li .link{display: block; width: 135px; height: 135px; border: 3px solid #fff; border-radius: 50%; margin-bottom: 25px;}
+.fuwu .layer li .lia1{background: url(../images/ico_13.png) no-repeat center;}
+.fuwu .layer li .lia1:hover{background: url(../images/ico_13.png) no-repeat center #FECC39; border-color: #FECC39;}
+.fuwu .layer li .lia2{background: url(../images/ico_14.png) no-repeat center;}
+.fuwu .layer li .lia2:hover{background: url(../images/ico_14.png) no-repeat center #FECC39; border-color: #FECC39;}
+.fuwu .layer li .lia3{background: url(../images/ico_15.png) no-repeat center;}
+.fuwu .layer li .lia3:hover{background: url(../images/ico_15.png) no-repeat center #FECC39; border-color: #FECC39;}
+.fuwu .layer li .lia4{background: url(../images/ico_16.png) no-repeat center;}
+.fuwu .layer li .lia4:hover{background: url(../images/ico_16.png) no-repeat center #FECC39; border-color: #FECC39;}
+.fuwu .layer li .lia5{background: url(../images/ico_17.png) no-repeat center;}
+.fuwu .layer li .lia5:hover{background: url(../images/ico_17.png) no-repeat center #FECC39; border-color: #FECC39;}
+.fuwu .layer li .lia6{background: url(../images/ico_18.png) no-repeat center;}
+.fuwu .layer li .lia6:hover{background: url(../images/ico_18.png) no-repeat center #FECC39; border-color: #FECC39;}
+
+/*专属服务*/
+.zhuanshu .zsfw_L{float: left; width: 45%; height: 494px; background: #FDD865; padding: 80px 0 0 100px;}
+.zhuanshu .zsfw_L .title{margin-bottom: 30px;}
+.zhuanshu .zsfw_L .title h1{font: 40px/50px "微软雅黑"; color: #fff;}
+.zhuanshu .zsfw_L .title h2{font: 28px/45px "微软雅黑"; color: #FAF6D5;}
+.zhuanshu .zsfw_L .title hr{width: 65px; border: none; border-bottom: 3px solid #DEB229; float: left;}
+.zhuanshu .zsfw_L p{font: 18px/30px "微软雅黑"; color: #fff;}
+.zhuanshu .zsfw_R{float: right; width: 55%;}
+.zhuanshu .zsfw_R img{display: block; width: 100%;}
+
+/*八份关爱*/
+.guanai{position: relative; margin-bottom: 180px;}
+.guanai>img{display: block; width: 100%;}
+.guanai .layer{width: 100%; height: 100%; background: rgba(31,38,75,0.55); position: absolute; left: 0px; top: 0px;}
+.guanai .title{padding: 50px 0 0 200px; color: #fff; margin-bottom: 10px;}
+.guanai .title h1{font: 44px/65px "微软雅黑";}
+.guanai .title h2{font: 24px/30px "微软雅黑";}
+.guanai .title h3{font: 18px/30px "微软雅黑";}
+.guanai .rela{position: relative;}
+.guanai .rela .item{position: absolute; text-align: center; background: rgba(252,204,55,0.65); border-radius: 50%; color: #fff;}
+.guanai .rela .item h1{font: 28px/40px "微软雅黑";}
+.guanai .rela .item p{font: 14px/25px "微软雅黑";}
+.guanai .rela .item1{width: 280px; height: 280px; padding: 60px 0; left: 5px; top: 10px;}
+.guanai .rela .item2{width: 220px; height: 220px; padding: 50px 0; left: 200px; top: 200px;}
+.guanai .rela .item3{width: 290px; height: 290px; padding: 70px 0; left: 320px; top: -20px;}
+.guanai .rela .item4{width: 260px; height: 260px; padding: 50px 0; left: 530px; top: 170px;}
+.guanai .rela .item5{width: 230px; height: 230px; padding: 40px 0; left: 700px; top: 10px;}
+.guanai .rela .item6{width: 260px; height: 260px; padding: 70px 0; left: 850px; top: 150px;}
+.guanai .rela .item7{width: 250px; height: 250px; padding: 40px 0; left: 1020px; top: -30px;}
+.guanai .rela .item8{width: 245px; height: 245px; padding: 70px 0; left: 1140px; top: 180px;}

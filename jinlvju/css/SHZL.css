@@ -1,0 +1,131 @@
+/*SHZL common*/
+.bg_banner{width: 100%; min-width: 1400px; height: 768px; background: url(../images/pic_21.jpg) no-repeat center top;}
+
+/*金牌推荐*/
+.tuijian .title{padding-top: 70px; height: 170px; width: 100%;line-height: 78px; margin-bottom: 50px;}
+.tuijian .title p{width: 100%; height: 70px; margin-bottom: 20px;}
+.tuijian .title b{font: 46px/70px "微软雅黑"; color: #474747; display: inline-block; float: left;}
+.tuijian .title span{font: 28px/28px "华文中宋"; color: #c3c2c1; letter-spacing: 2px; float: left; display: inline-block; margin: 34px 0 0 10px;}
+.tuijian .title hr{margin: 0px; width: 105px; border: none; border-bottom: 2px solid #FFCE38;}
+.tuijian li{position: relative; float: left; width: 320px; height: 360px; margin-right: 40px;}
+.tuijian li:nth-child(4){margin-right: 0px;}
+.tuijian li>img{display: block; width: 100%; height: 100%;}
+.tuijian li .layer{display: none;}
+.tuijian li:hover .layer{display: block; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: rgba(43,50,78,0.61); text-align: center; color: #ddd; padding: 240px 0 0 0;}
+.tuijian li .layer p{font-size: 20px; line-height: 50px;}
+.tuijian li .layer a{display: inline-block; width: 80px; height: 34px; line-height: 32px; text-align: center; background: #FFCE38; border-radius: 3px; font-size: 25px; color: #fff;}
+.tuijian .more{width: 100%; height: 120px; line-height: 120px; padding: 26px 0; text-align: right;}
+
+/*生活助理简介*/
+.jianjie{width: 100%; min-width: 1400px; height: auto; position: relative;}
+.jianjie>img{display: block; width: 100%;}
+.jianjie .layer{position: absolute; left: 0px; top: 0px; width: 100%; min-width: 1400px; height: 100%; background: rgba(24,31,58,0.41);}
+.jianjie .title{padding-top: 5%; color: #fff;}
+.jianjie .title h1{font: 42px/50px "微软雅黑";}
+.jianjie .title h2{font: 29px/35px "微软雅黑"; color: #FAD162;}
+.jianjie .txt1,.jianjie .txt2{float: left; font:19px/30px "微软雅黑"; color: #fff; margin-left: 60px;}
+.jianjie .txt1{margin-left: 250px;}
+.jianjie .txt1 span{color: #FFD872;}
+
+/*生活助理流程图*/
+.liuchen{min-width: 1400px;}
+.liuchen{padding-bottom: 70px;}
+.liuchen .title{padding: 65px 0 0; text-align: center; margin-bottom: 65px;}
+.liuchen .title h1{font: 42px/55px "微软雅黑"; color: #4a4848;}
+.liuchen .title h2{font: 21px/50px "微软雅黑"; color: #6D6D6D;}
+.liuchen .title hr{width: 79px; border: none; border-bottom: 5px solid #FCCD39; margin: 0 auto;}
+.liuchen>img{display: block; margin: auto;}
+
+/*旅程*/
+.lvchen{min-width: 1400px;}
+.lvchen .title{line-height: 100px; text-align: center; border-bottom: 2px solid #c9c9c9;}
+.lvchen .title p{font: 45px/100px "微软雅黑";}
+.lvchen .title hr{width: 63px; border: none; border-bottom: 6px solid #FCCC37; margin-bottom: -2px;}
+.lvchen_m{display: block; width: 1400px; min-width: 1400px; height: 1180px; padding-top: 30px; margin: 90px auto 200px; background: url(../images/pic_29.jpg) no-repeat center; }
+.lvchen_m .line{width: 100%; height: 280px;}
+.lvchen_m .line div{width: 465px; float: left;}
+.lvchen_m .line div .tit{font: 32px/35px "微软雅黑"; margin-bottom: 25px; color: #333;}
+.lvchen_m .line div .txt{font: 18px/30px "微软雅黑"; width: 250px; float: left; color: #666;}
+.lvchen_m .line .pic{width: 200px; height: 280px; float: left; padding-top: 30px;}
+.lvchen_m .line .pic img{width: 200px; height: 220px;}
+.lvchen_m .line .pic .pic1{ display: block;}
+.lvchen_m .line .pic .pic2{ display: none;}
+.lvchen_m .line .pic:hover .pic1{ display: none;}
+.lvchen_m .line .pic:hover .pic2{ display: block;}
+.lvchen_m .line .info{float: right; width: 265px; padding-top: 50px;}
+.lvchen_m .line .div1{margin-left: -50px;}
+.lvchen_m .line .div2{margin-left: 30px;}
+.lvchen_m .line .div3{margin-left: 20px;}
+.lvchen_m .line .div4{margin-left: 60px;}
+.lvchen_m .line .div5{margin-left: 170px;}
+.lvchen_m .line .div6{margin-left: 340px;}
+.lvchen_m .line .div7{margin-left: 60px;}
+.lvchen_m .line .div8{margin-left: -50px;}
+.lvchen_m .line .div9{margin-left: 290px;}
+
+
+
+
+/*预定*/
+.yudin{padding-bottom: 100px;}
+.yudin .title{padding-top: 50px; height: 150px; width: 100%;line-height: 78px;}
+.yudin .title p{width: 100%; height: 70px; margin-bottom: 20px;}
+.yudin .title b{font: 46px/70px "微软雅黑"; color: #474747; display: inline-block; float: left;}
+.yudin .title span{font: 28px/28px "华文中宋"; color: #c3c2c1; letter-spacing: 2px; float: left; display: inline-block; margin: 34px 0 0 10px;}
+.yudin_L{width: 40%; float: left; text-align: center;}
+.yudin_R{width: 60%; float: right;}
+.yudin_R .tit{font: 31px/85px "微软雅黑"; padding-left: 65px;}
+.yudin_R .data{font-size: 19px; padding-left: 65px;}
+.yudin_R .data span{display: inline-block; margin-right: 40px;}
+.yudin_R table tr{height: 55px; font-size: 20px;}
+.yudin_R table tr td:first-child{text-align: right; padding-right: 10px; line-height: 55px; vertical-align: top;}
+.yudin_R table tr td input{padding: 5px;}
+.yudin_R table tr td .inp1{width: 241px; height: 32px; border: 1px solid #FECC39;}
+.yudin_R table tr td .inp2{width: 127px; height: 32px; border: 1px solid #FECC39;}
+.yudin_R table tr td .inp3{width: 548px; height: 32px; border: 1px solid #FECC39;}
+.yudin_R table tr td textarea{width: 548px; height: 122px; border: 1px solid #FECC39; outline: none;}
+.yudin_R table tr td input[type=radio]{appearance:none; -moz-appearance:none; -webkit-appearance:none; width: 10px; height: 10px; background: url(../images/ico_19.png) no-repeat center; outline: none;}
+.yudin_R table tr td input[type=radio]:checked{background: url(../images/ico_20.png) no-repeat center;}
+.yudin_R table tr td label{margin-right: 35px;}
+.yudin_R table button{width: 101px; height: 33px; border: none; line-height: 31px; text-align: center; border-radius: 5px; font-size: 18px; color: #fff; background: #FCCC37; letter-spacing: 3px;}
+
+/*在线选择*/
+.xuanze{position: relative; margin-bottom: 215px;}
+.xuanze .wrapper{height: 240px; position: absolute; left: 50%; top: -120px; transform: translateX(-50%); background: #fff; box-shadow: 0 0 40px rgba(227,227,227,0.8);}
+.xuanze .wrapper .title{line-height: 58px; border-bottom: 1px solid #bfbfbf; text-align: center; margin-bottom: 20px;}
+.xuanze .wrapper .title h1{font: 32px/50px "微软雅黑";}
+.xuanze .wrapper .title hr{width: 46px; border: none; border-bottom: 4px solid #FCCC37; margin: 0px auto;}
+.xuanze .wrapper .select{text-align: center;}
+.xuanze .wrapper .select .line1{line-height: 90px; font-size: 22px;}
+.xuanze .wrapper .select .line1 span{font-size: 25px;}
+.xuanze .wrapper .select .line1 a{margin-right: 45px;}
+.xuanze .wrapper .select .line1 a:hover{color: #FDBA1A; text-decoration: underline;}
+.xuanze .wrapper .select .line2{line-height: 40px;}
+.xuanze .wrapper .select .line2 input{margin-right: 65px;}
+.xuanze .wrapper .select .line2 span{font-size: 20px;}
+.xuanze .wrapper .select .line2 input[type=text]{width: 256px; height: 40px; border: 1px solid #FECF39; background: url(../images/ico_21.png) no-repeat 12px center; padding-left: 45px; margin-left: 10px;}
+.xuanze .wrapper .select .line2 input[type=date]{width: 192px; height: 40px; border: 1px solid #FECF39; background: url(../images/ico_22.png) no-repeat 12px center; padding-left: 45px; margin-left: 10px;}
+.xuanze .wrapper .select .line2 button{width: 102px; height: 40px; line-height: 38px; text-align: center; border: none; font: 17px/38px "微软雅黑"; color: #fff; border-radius: 5px; background: #FCCC37;}
+
+/*在线选择 筛选列表*/
+.xuanze_list{margin-bottom: 50px;}
+.xuanze_list li{width: 320px; height: 400px; float: left; margin: 0 40px 40px 0;}
+.xuanze_list li:nth-child(4n){margin-right: 0px;}
+.xuanze_list li .box{width: 320px; height: 360px; position: relative;}
+.xuanze_list li .box>img{display: block; width: 100%; height: 100%;}
+.xuanze_list li .box .layer{display: none;}
+.xuanze_list li .box:hover .layer{display: block; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: rgba(43,50,78,0.61); padding-top: 80%;}
+.xuanze_list li p{text-align: center; font: 18px/40px "微软雅黑";}
+.xuanze_list li .box .layer div{width: 160px; height: 34px; margin: auto; border: 1px solid #FFCE39; border-radius: 3px;}
+.xuanze_list li .box .layer div a{display: inline-block; width: 79px; height: 32px; font: 19px/32px "微软雅黑"; text-align: center;}
+.xuanze_list li .box .layer div a:first-child{background: #FFCE39; color: #fff;}
+.xuanze_list li .box .layer div a:last-child{background: no-repeat; color: #FFCE39;}
+
+/*助理详情*/
+.yudin_L .pic{padding: 20px 0;}
+.yudin_L a{display: block; width: 101px; height: 33px; font: 18px/33px "微软雅黑"; background: #FCCC37; color: #fff; border-radius: 4px; margin: auto;}
+.xiangqin_bg{background: #FECC39; color: #fff; padding: 70px 0 0 60px; height: 514px;}
+.xiangqin_bg .line1{font: 24px/48px "微软雅黑";}
+.xiangqin_bg .tit{font: 22px/38px "微软雅黑"; margin-top: 25px; padding: 0px;}
+.xiangqin_bg .txt{font: 17px/38px "微软雅黑";}
+.xiangqin_bg .txt span{margin-right: 35px;}
